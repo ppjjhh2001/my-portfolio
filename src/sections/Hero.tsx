@@ -1,5 +1,4 @@
 // src/sections/Hero.tsx
-import React from 'react';
 
 // 들어올 데이터의 '타입'을 정의해 줍니다 (TypeScript의 장점!)
 interface HeroProps {

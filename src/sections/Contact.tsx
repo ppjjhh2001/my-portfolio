@@ -6,7 +6,6 @@ export default function Contact() {
     <section id="contact" style={{ 
       padding: '100px 20px', 
       textAlign: 'center', 
-      // 💡 문제의 밝은 배경색 제거하고 상단에 은은한 구분선 추가
       borderTop: '1px solid rgba(255, 255, 255, 0.1)',
       marginTop: '50px'
     }}>

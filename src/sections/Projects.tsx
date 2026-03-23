@@ -1,5 +1,4 @@
 // src/sections/Projects.tsx
-import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../data/portfolioData';
 

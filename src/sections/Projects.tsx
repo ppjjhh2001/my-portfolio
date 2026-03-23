@@ -18,6 +18,8 @@ export default function Projects() {
             techStack={project.techStack}
             githubLink={project.githubLink}
             demoLink={project.demoLink}
+            features={project.features}
+            imageUrl={project.imageUrl}
           />
         ))}
       </div>

@@ -18,6 +18,7 @@ export default function Header() {
       </div>
       <nav style={{ display: 'flex', gap: '30px' }}>
         <a href="#hero" style={{ textDecoration: 'none', color: '#cbd5e1', fontWeight: '500', transition: '0.2s' }}>Home</a>
+        <a href="#about" style={{ textDecoration: 'none', color: '#cbd5e1', fontWeight: '500', transition: '0.2s' }}>About me</a>
         <a href="#projects" style={{ textDecoration: 'none', color: '#cbd5e1', fontWeight: '500', transition: '0.2s' }}>Projects</a>
         <a href="#contact" style={{ textDecoration: 'none', color: '#cbd5e1', fontWeight: '500', transition: '0.2s' }}>Contact</a>
       </nav>

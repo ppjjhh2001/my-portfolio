@@ -33,7 +33,7 @@ export default function ProjectCard({ title, description, techStack, githubLink,
       
       {features && features.length > 0 && (
         <div style={{ margin: '20px 0', padding: '15px', backgroundColor: 'rgba(0,0,0,0.2)', borderRadius: '8px' }}>
-          <h4 style={{ margin: '0 0 10px 0', color: '#cbd5e1', fontSize: '1rem' }}>✨ 주요 구현 기능</h4>
+          <h4 style={{ margin: '0 0 10px 0', color: '#cbd5e1', fontSize: '1rem' }}>주요 구현 기능</h4>
           <ul style={{ margin: 0, paddingLeft: '20px', color: '#94a3b8', lineHeight: '1.6' }}>
             {features.map((feature, index) => (
               <li key={index} style={{ marginBottom: '5px' }}>{feature}</li>

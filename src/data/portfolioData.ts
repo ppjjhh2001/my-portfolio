@@ -56,4 +56,16 @@ export const projects = [
     //githubLink: "https://github.com/ppjjhh2001/my-portfolio",
     //demoLink: "https://ppjjhh2001.github.io/my-portfolio/",
   },
+  {
+    id: 4,
+    title: "CodeUp 풀이",
+    description: "codeup 알고리즘 문제 풀이 100위 달성",
+    //imageUrl: pro4, // Assuming you have an image for this project
+    techStack: ["Java", "C"],
+    features: [
+      "Java와 C로 다양한 알고리즘 문제 풀이"
+    ],
+    githubLink: "https://codeup.kr/userinfo.php?user=parkqkdrn",
+    //demoLink: "https://ppjjhh2001.github.io/my-portfolio/",
+  },
 ];

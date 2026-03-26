@@ -1,6 +1,7 @@
 // src/data/portfolioData.ts
 import pro1 from '../assets/pro1.png';
 import pro2 from '../assets/pro2.png';
+import pro3 from '../assets/pro3.png';
 
 export const personalInfo = {
   name: "박재현",
@@ -46,6 +47,18 @@ export const projects = [
   },
   {
     id: 3,
+    title: "AI-nterviewer",
+    description: "음성 인식을 통해 실제 면접처럼 AI와 대화하고, 면접이 끝나면 내 답변을 분석해 점수와 피드백을 제공하는 풀스택(Full-stack) 웹 서비스입니다.",
+    imageUrl: pro3,
+    techStack: ["React(TypeScript)", "Web Speech API", "Node.js", "Express", "MongoDB"],
+    features: [
+      "개인 프로젝트","음성 인식 면접 시뮬레이터 개발"
+    ],
+    githubLink: "https://github.com/ppjjhh2001/ai-nterviewer",
+    //demoLink: "https://capstone_10.github.io/",
+  },
+  {
+    id: 4,
     title: "사장님 출입금지",
     description: "아르바이트 노동자를 위한 급여 계산 및 정보 제공 앱",
     //imageUrl: pro3, // Assuming you have an image for this project
@@ -57,7 +70,7 @@ export const projects = [
     //demoLink: "https://ppjjhh2001.github.io/my-portfolio/",
   },
   {
-    id: 4,
+    id: 5,
     title: "CodeUp 풀이",
     description: "codeup 알고리즘 문제 풀이 100위 달성",
     //imageUrl: pro4, // Assuming you have an image for this project
